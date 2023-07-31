@@ -6,20 +6,27 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
-### Step 2: 
- 
-### Step 3: 
-
-### Step 4:  
-
-### Step 5: 
-
-### Step 6: 
+import sys module
+## Step 2:
+using sys module,open a file with read mode
+## Step 3:
+read the file and split the file and stor in the variable
+## Step 4:
+print the length of the variable
+## Step 5:
+End the program
 
 ## PROGRAM:
+## DEVELOPED BY: V.THAANESH
+## REG.NO 23003843
+f = open('/content/drive/MyDrive/Colab Notebooks/thanesh.txt','r')
 
+import sys
+s=open(sys.argv[0],"r")
+a=f.read().split()
+print(len(a))
 ### OUTPUT:
+![output](/Screenshot%202023-07-31%20094103.png)
 
 
 
