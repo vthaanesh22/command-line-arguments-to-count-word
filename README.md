@@ -17,14 +17,21 @@ print the length of the variable
 End the program
 
 ## PROGRAM:
-## DEVELOPED BY: V.THAANESH
-## REG.NO 23003843
+DEVELOPED BY: V.THAANESH
+
+REGISTER.NO 23003843
+
 f = open('/content/drive/MyDrive/Colab Notebooks/thanesh.txt','r')
 
+
 import sys
+
 s=open(sys.argv[0],"r")
+
 a=f.read().split()
+
 print(len(a))
+
 ### OUTPUT:
 ![output](/Screenshot%202023-07-31%20094103.png)
 
